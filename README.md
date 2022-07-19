@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leader Board
 
-> Description the project.
+> A leaderboard built to fetch data from api
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html css javacsript
+- Linters and webpack
+- Git and Github
 
 ## Live Demo (if available)
 
