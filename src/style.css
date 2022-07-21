@@ -32,7 +32,6 @@ p {
 .score-container {
   width: 290px;
   border: 2px solid black;
-  height: 210px;
   list-style: none;
   padding-left: 0;
 }
