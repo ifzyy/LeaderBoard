@@ -19,6 +19,3 @@ refreshBtn.addEventListener('click', () => {
 });
 
 getData();
-
-
-
