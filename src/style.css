@@ -17,7 +17,6 @@ h1 {
   padding: 15px;
   font-size: 40px;
   border-radius: 10px;
-
 }
 
 .contain {
@@ -70,7 +69,7 @@ li {
 
 li:nth-child(even) {
   color: white;
- background-color: #4a00e0;
+  background-color: #4a00e0;
 }
 
 li:nth-child(odd) {
@@ -91,6 +90,7 @@ form {
 input {
   width: 300px;
   padding: 20px;
+  font-size: 20px;
   border-color: white;
   background: transparent;
   color: white;
