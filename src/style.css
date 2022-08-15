@@ -1,5 +1,6 @@
 body {
   margin-left: 50px;
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
 }
 
 .recent {
@@ -8,20 +9,41 @@ body {
   gap: 20px;
 }
 
+h1 {
+  text-align: center;
+  border: 2px solid white;
+  margin-bottom: 0;
+  color: white;
+  padding: 15px;
+  font-size: 40px;
+  border-radius: 10px;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 p {
   font-size: 25px;
   font-weight: bold;
+  color: white;
 }
 
 .refresh {
   width: 170px;
-  background-color: white;
+  background: transparent;
   font-size: 15px;
   padding: 5px;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
 }
 
 .refresh:hover {
-  background-color: #dcdcdc;
+  background-color: #4a00e0;
+  color: white;
 }
 
 .container {
@@ -30,19 +52,32 @@ p {
 }
 
 .score-container {
-  width: 290px;
-  border: 2px solid black;
+  margin-top: 0;
+  width: 700px;
+  border: 5px solid white;
   list-style: none;
   padding-left: 0;
+  border-radius: 10px;
 }
 
 li {
   font-size: 20px;
   padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 li:nth-child(even) {
-  background-color: #dcdcdc;
+  color: white;
+  background-color: #4a00e0;
+}
+
+li:nth-child(odd) {
+  background-color: white;
+}
+
+h2 {
+  color: white;
 }
 
 form {
@@ -53,17 +88,29 @@ form {
 }
 
 input {
-  width: 250px;
-  padding: 10px;
+  width: 300px;
+  padding: 20px;
+  font-size: 20px;
+  border-color: white;
+  background: transparent;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 20px;
 }
 
 .submit {
   width: 200px;
   padding: 10px;
   font-size: 18px;
-  background-color: white;
+  background: transparent;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
 }
 
 .submit:hover {
-  background-color: #dcdcdc;
+  background-color: #4a00e0;
+  color: white;
 }
